@@ -1,7 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9802cb30-8d9a-425b-a57c-be81f16ed80a" name="Changes" comment="" />
+    <list default="true" id="9802cb30-8d9a-425b-a57c-be81f16ed80a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../NOC-try1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOC-try1/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOC-try1/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOC-try1/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOC-try1/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOC-try1/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOC-try1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOC-try1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOC-try1/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOC-try1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOC-try1/NOC-try1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOC-try1/patient-service/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOC-try1/patient-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOC-try1/patient-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOC-try1/patient-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOC-try1/patient-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOC-try1/patient-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOC-try1/patient-service/src/main/java/com/hbdev/patientservice/PatientServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOC-try1/patient-service/src/main/java/com/hbdev/patientservice/client/UserClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOC-try1/patient-service/src/main/java/com/hbdev/patientservice/entity/Patient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOC-try1/patient-service/src/main/java/com/hbdev/patientservice/repository/PatientRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOC-try1/patient-service/src/main/java/com/hbdev/patientservice/service/PatientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOC-try1/patient-service/src/main/java/com/hbdev/patientservice/web/PatientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOC-try1/patient-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOC-try1/patient-service/src/test/java/com/hbdev/patientservice/PatientServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOC-try1/user-service/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOC-try1/user-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOC-try1/user-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOC-try1/user-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOC-try1/user-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOC-try1/user-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOC-try1/user-service/src/main/java/com/hbdev/userservice/UserServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOC-try1/user-service/src/main/java/com/hbdev/userservice/config/webConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOC-try1/user-service/src/main/java/com/hbdev/userservice/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOC-try1/user-service/src/main/java/com/hbdev/userservice/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOC-try1/user-service/src/main/java/com/hbdev/userservice/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOC-try1/user-service/src/main/java/com/hbdev/userservice/web/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOC-try1/user-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOC-try1/user-service/src/test/java/com/hbdev/userservice/UserServiceApplicationTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,13 +52,30 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "houdabelhad1"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/houdabelhad1/NOC-v1.git",
+    "accountId": "af034b54-c9c0-4332-96fd-92522d6e8ab7"
+  }
+}]]></component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2smJTutzEy0EmIMdQidTfadHxMk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -26,7 +86,13 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "just-back-with-payment",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "21",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -47,11 +113,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1739054833436</updated>
-      <workItem from="1739054834787" duration="8000" />
+      <workItem from="1739054834787" duration="2367000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
