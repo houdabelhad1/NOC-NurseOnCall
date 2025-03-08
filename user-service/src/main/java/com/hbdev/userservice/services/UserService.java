@@ -29,7 +29,7 @@ public class UserService {
                 .map(this ::convertToDTO);
     }
 
-    public UserDTO save(UserRequestDTO userRequestDTO) {
+    public UserDTO saveUser(UserRequestDTO userRequestDTO) {
         User user = new User();
         user.setUsername(userRequestDTO.getUsername());
         user.setEmail(userRequestDTO.getUsername());

@@ -3,6 +3,7 @@ package com.hbdev.userservice.entities;
 import jakarta.persistence.*;
 import lombok.*;
 
+import java.util.HashSet;
 import java.util.Set;
 
 @Entity
@@ -12,6 +13,7 @@ import java.util.Set;
 @AllArgsConstructor
 @ToString
 @Builder
+@Table(name = "users") // Explicitly set the table name to avoid conflicts with reserved keywords
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -21,5 +23,6 @@ public class User {
     private String email;
 
     @ManyToMany(fetch = FetchType.EAGER)
-    private Set<Role> roles;
+    @Builder.Default // Ensures the builder initializes this field with an empty set
+    private Set<Role> roles = new HashSet<>();
 }
