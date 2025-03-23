@@ -29,6 +29,12 @@ public class NurseService {
         nurse.setHourlyRate(nurseRequestDTO.getHourlyRate());
         nurse.setRating(0.0); // Initialiser la note moyenne à 0
 
+        // Nouveaux champs
+        nurse.setSpecialty(nurseRequestDTO.getSpecialty());
+        nurse.setExperience(nurseRequestDTO.getExperience());
+        nurse.setCertification(nurseRequestDTO.getCertification());
+        nurse.setBio(nurseRequestDTO.getBio());
+
         // Sauvegarder l'entité
         Nurse savedNurse = nurseRepository.save(nurse);
 
@@ -70,6 +76,12 @@ public class NurseService {
         nurseResponseDTO.setSkills(nurse.getSkills());
         nurseResponseDTO.setHourlyRate(nurse.getHourlyRate());
         nurseResponseDTO.setRating(nurse.getRating());
+
+        nurseResponseDTO.setSpecialty(nurse.getSpecialty());
+        nurseResponseDTO.setExperience(nurse.getExperience());
+        nurseResponseDTO.setCertification(nurse.getCertification());
+        nurseResponseDTO.setBio(nurse.getBio());
+
         return nurseResponseDTO;
     }
 }

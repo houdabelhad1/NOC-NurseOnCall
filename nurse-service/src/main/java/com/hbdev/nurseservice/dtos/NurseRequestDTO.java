@@ -13,4 +13,9 @@ public class NurseRequestDTO {
     private String email;
     private Set<String> skills;
     private double hourlyRate;
+
+    private String specialty;
+    private int experience;
+    private String certification;
+    private String bio;
 }

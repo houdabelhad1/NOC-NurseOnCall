@@ -23,4 +23,10 @@ public class Nurse {
 
     private double hourlyRate; // Tarif
     private double rating; // Note moyenne
+
+    // Nouveaux champs
+    private String specialty;
+    private int experience;
+    private String certification;
+    private String bio;
 }

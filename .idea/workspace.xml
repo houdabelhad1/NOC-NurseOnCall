@@ -5,25 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9802cb30-8d9a-425b-a57c-be81f16ed80a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nurse-service/src/main/java/com/hbdev/nurseservice/conf/CorsConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nurse-service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/nurse-service/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nurse-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nurse-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nurse-service/src/main/java/com/hbdev/nurseservice/NurseServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/nurse-service/src/main/java/com/hbdev/nurseservice/NurseServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nurse-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nurse-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/hbdev/userservice/UserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hbdev/userservice/UserServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/hbdev/userservice/dtos/UserRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hbdev/userservice/dtos/UserRequestDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nurse-service/src/main/java/com/hbdev/nurseservice/dtos/NurseRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/nurse-service/src/main/java/com/hbdev/nurseservice/dtos/NurseRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nurse-service/src/main/java/com/hbdev/nurseservice/dtos/NurseResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/nurse-service/src/main/java/com/hbdev/nurseservice/dtos/NurseResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nurse-service/src/main/java/com/hbdev/nurseservice/entity/Nurse.java" beforeDir="false" afterPath="$PROJECT_DIR$/nurse-service/src/main/java/com/hbdev/nurseservice/entity/Nurse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nurse-service/src/main/java/com/hbdev/nurseservice/service/NurseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/nurse-service/src/main/java/com/hbdev/nurseservice/service/NurseService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -83,6 +82,12 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/nurse-service/src/main/resources" />
+      <recent name="$PROJECT_DIR$/user-service/src/main/resources" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -140,7 +145,7 @@
       <workItem from="1742208648114" duration="2615000" />
       <workItem from="1742690877442" duration="3233000" />
       <workItem from="1742694887134" duration="1615000" />
-      <workItem from="1742708395369" duration="2224000" />
+      <workItem from="1742708395369" duration="5002000" />
     </task>
     <servers />
   </component>

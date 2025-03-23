@@ -15,4 +15,9 @@ public class NurseResponseDTO {
     private Set<String> skills;
     private double hourlyRate;
     private double rating;
+
+    private String specialty;
+    private int experience;
+    private String certification;
+    private String bio;
 }
