@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal" created-in="IU-241.15989.150">
+    <data-source name="user_bd@localhost" uuid="eae2e58d-8e42-494c-bc36-fd3a0c0a834e">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" />
+      <user-name>root</user-name>
+      <schema-mapping />
+    </data-source>
+    <data-source name="user_bd@localhost" uuid="0967ec7e-7415-4576-9705-87f13aa54f40">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" />
+      <user-name>root</user-name>
+      <schema-mapping />
+    </data-source>
+    <data-source name="nurse_bd@localhost" uuid="ecf76393-d1f6-4d23-962c-4ba2e7d4bed9">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MARIADB" />
+      <user-name>app_user</user-name>
+      <schema-mapping />
+    </data-source>
+  </component>
+</project>
